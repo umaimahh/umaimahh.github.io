@@ -5,28 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Expressing Gratitude</title>
     <style>
-        .center {
-          margin: auto;
-          width: 50%;
-          /* border: 3px solid #73AD21; */
-          padding: 120px;
-          background-attachment: fixed;
-        }
-        #ex {
+        #body_style {
+            
             text-align: center;
             background-image: url("Background.png");
             background-position: top;
             background-repeat: no-repeat;
             background-attachment: fixed;
+            background-size: cover;
+            background-color: #f5d0a4;
+        }
+        #pdf_style {
+            margin-top: 5%;
+            width: 65%;
+            height:900px;
+            position: static;
+            
         }
         </style>
 </head>
-<body id="ex">
-    <!-- <h1>Hello World</h1> -->
-    <div class="center">
-        <object data="Booklet on Gratitude.pdf" width="1000" height="1000" type='application/pdf'/>
+<body id="body_style">
+
+    <div >
+        <object id="pdf_style" data="Booklet on Gratitude.pdf" type='application/pdf'>
     </div>
     
 </body>
